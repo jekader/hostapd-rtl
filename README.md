@@ -1,7 +1,9 @@
 hostapd with RTL8188 patches applied
 ------------------------------------
 
-This contains almost none of my code (just Debian manifests partially), all software used is described below
+As RTL8192CU has poor support in current kernels, some distros use realtek-provided drivers which do not work with stock hostapd. This repo contains hostapd-2.4 patched to support realtek's 8192cu driver and build manifests to package it as a .deb file. This was tested to build and work on BPI-R1 (Allwinner A20) running Bananian (kernel 3.4.104+).
+
+The repo contains almost none of my code (just Debian manifests partially), all software used is described below. Follow the links to find out respective software licenses. Parts done by me are in Public Domain.
 
 Software used:
 --------------
