@@ -1,0 +1,11 @@
+hostapd-rtl (2.4-2) UNRELEASED; urgency=medium
+
+  * Renamed package to differentiate from normal hostapd
+
+ -- Jeka Der <jekader@gmail.com>  Sun, 22 Mar 2015 19:51:28 +0100
+
+hostapd (2.4-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Jeka Der <jekader@gmail.com>  Sun, 22 Mar 2015 15:47:25 +0100

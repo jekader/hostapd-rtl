@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ "$1" = "remove" ]; then
+/etc/init.d/hostapd stop
+update-rc.d -f hostapd remove
+fi
