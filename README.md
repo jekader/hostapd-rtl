@@ -16,9 +16,9 @@ Debian hostapd SRC RPM
 INSTALL:
 --------
 
-git clone https://github.com/jekader/hostapd-rtl.git
-cd hostapd-rtl
-./build.sh
+    git clone https://github.com/jekader/hostapd-rtl.git
+    cd hostapd-rtl
+    ./build.sh
 
 USE:
 ----
