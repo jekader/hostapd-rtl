@@ -18,8 +18,8 @@ INSTALL:
 
     git clone https://github.com/jekader/hostapd-rtl.git
     cd hostapd-rtl
-    ./build.sh
-
+    bash build.sh
+    dpkg -i ../hostapd-rtl_2.4-2_armhf.deb
 USE:
 ----
 
