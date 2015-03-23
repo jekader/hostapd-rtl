@@ -16,6 +16,12 @@ Software used:
 INSTALL:
 --------
 
+Install the toolchain if missing:
+
+    apt-get install git build-essential fakeroot devscripts
+
+then copy the repo, build and install the package:
+
     git clone https://github.com/jekader/hostapd-rtl.git
     cd hostapd-rtl
     bash build.sh
