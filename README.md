@@ -6,12 +6,12 @@ This contains almost none of my code (just Debian manifests partially), all soft
 Software used:
 --------------
 
-hostapd-2.4:
-http://w1.fi/releases/hostapd-2.4.tar.gz
-RTL8188 patch:
-https://github.com/jenssegers/RTL8188-hostapd
-init script:
-Debian hostapd SRC RPM
+* hostapd-2.4:
+  * http://w1.fi/releases/hostapd-2.4.tar.gz
+* RTL8188 patch:
+  * https://github.com/jenssegers/RTL8188-hostapd
+* init script:
+  * https://packages.qa.debian.org/w/wpa.html
 
 INSTALL:
 --------
