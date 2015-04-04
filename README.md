@@ -20,7 +20,7 @@ INSTALL:
 
 Install the toolchain if missing:
 
-    apt-get install git build-essential fakeroot devscripts
+    apt-get install git build-essential fakeroot devscripts debhelper libnl-dev libssl-dev
 
 then copy the repo, build and install the package:
 
