@@ -461,7 +461,7 @@ static int ieee80211n_check_40mhz(struct hostapd_iface *iface)
 	struct wpa_driver_scan_params params;
 	int ret;
 
-	if (!iface->conf->secondary_channel)
+	if (!iface->conf->secondary_channel || iface->conf->noscan)
 		return 0; /* HT40 not used */
 
 	hostapd_set_state(iface, HAPD_IFACE_HT_SCAN);

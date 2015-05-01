@@ -11,7 +11,9 @@ Software used:
 * hostapd-2.4:
   * http://w1.fi/releases/hostapd-2.4.tar.gz
 * RTL8188 patch:
-  * https://github.com/jenssegers/RTL8188-hostapd
+  * https://github.com/pritambaral/hostapd-rtl871xdrv
+* noscan patch from OpenWRT:
+  * https://dev.openwrt.org/browser/trunk/package/network/services/hostapd/patches/300-noscan.patch
 * init script:
   * https://packages.qa.debian.org/w/wpa.html
 
