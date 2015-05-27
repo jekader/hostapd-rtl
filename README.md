@@ -29,7 +29,7 @@ then copy the repo, build and install the package:
     git clone https://github.com/jekader/hostapd-rtl.git
     cd hostapd-rtl
     bash build.sh
-    dpkg -i ../hostapd-rtl_2.4-2_armhf.deb
+    dpkg -i ../hostapd-rtl_2.4-3_armhf.deb
 USE:
 ----
 
