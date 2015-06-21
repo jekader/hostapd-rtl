@@ -2752,6 +2752,8 @@ static int hostapd_config_fill(struct hostapd_config *conf,
 #ifdef CONFIG_IEEE80211N
 	} else if (os_strcmp(buf, "noscan") == 0) {
 		conf->noscan = atoi(pos);
+	} else if (os_strcmp(buf, "ht_coex") == 0) {
+		conf->no_ht_coex = !atoi(pos);
 	} else if (os_strcmp(buf, "ieee80211n") == 0) {
 		conf->ieee80211n = atoi(pos);
 	} else if (os_strcmp(buf, "ht_capab") == 0) {
